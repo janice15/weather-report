@@ -6,28 +6,48 @@ h1 {
     font-size: 3rem;
     text-shadow: 3px 3px #C0392B;
     }
-    
+
     .container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    gap: 10px;
-    }
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: inline-block;
+      }
+      
+      .temp, .sky, .city {
+      margin-top: 15px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 5px 5px #E6B0AA;
+      text-align: center;
+      width: 250px;
+      padding: 20px;
+      transition: all .2s ease-in-out;
+      }
     
-    .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px #E6B0AA;
-    text-align: center;
-    width: 250px;
-    padding: 20px;
-    transition: all .2s ease-in-out;
-    }
-    
-    .card:hover {
+.temp:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px #E6B0AA;
+    }
+.sky:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px #E6B0AA;
+}
+.city:hover {
+        transform: translateY(-10px);
+        box-shadow: 10px 10px #E6B0AA;
+  }
+
+    .temp {
+      grid-row: 2;
+    }
+    .sky {
+      grid-row: 3;
+    }
+    .city {
+      grid-row: 4;
     }
 
     .garden:hover {
@@ -43,7 +63,13 @@ h1 {
       width: 400px;
       padding: 20px;
       transition: all .2s ease-in-out;
+      grid-row: 2/span 3;
+      grid-column: 2;
+      text-align: center;
+      align-self: center;
     }
+
+    
 
 
     /* button {
