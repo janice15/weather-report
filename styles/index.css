@@ -1,4 +1,15 @@
 
+body {
+  background-color: #FADBD8;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333333;
+}
+
+main {
+  background-color: #FADBD8;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333333;
+}
 
 h1 {
     text-align: center;
@@ -13,10 +24,10 @@ h1 {
       margin-top: 50px;
       flex-wrap: wrap;
       gap: 20px;
-      display: inline-block;
+      /* display: inline-block; */
       }
       
-      .temp, .sky, .city {
+      #temp, #sky, #city {
       margin-top: 15px;
       background-color: white;
       border-radius: 10px;
@@ -27,26 +38,26 @@ h1 {
       transition: all .2s ease-in-out;
       }
     
-.temp:hover {
+#temp:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px #E6B0AA;
     }
-.sky:hover {
+#sky:hover {
       transform: translateY(-10px);
       box-shadow: 10px 10px #E6B0AA;
 }
-.city:hover {
+#city:hover {
         transform: translateY(-10px);
         box-shadow: 10px 10px #E6B0AA;
   }
 
-    .temp {
+    #temp {
       grid-row: 2;
     }
-    .sky {
+    #sky {
       grid-row: 3;
     }
-    .city {
+    #city {
       grid-row: 4;
     }
 
@@ -69,8 +80,29 @@ h1 {
       align-self: center;
     }
 
-    
+    #garden_content {
+      min-height: 200px;
+      max-width: fit-content;
+      margin: auto;
+      padding: 2rem;
 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      border-radius: 8px;
+      font-size: 2em; 
+    }
+
+#text_weather h1{
+ float: left;
+ padding-left: 15px;
+}
+#text_seattle h1{
+  float: right;
+  padding-right: 50px;
+ }
+ 
 
     /* button {
     border: none;
@@ -88,18 +120,4 @@ h1 {
     }
      */
     
-    body {
-      background-color: #FADBD8;
-      font-family: 'Helvetica Neue', sans-serif;
-      color: #333333;
-    }
-    
 
-    main {
-      background-color: #FADBD8;
-      font-family: 'Helvetica Neue', sans-serif;
-      color: #333333;
-    }
-    
-  
-    
