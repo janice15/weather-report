@@ -36,6 +36,7 @@ h1 {
       width: 250px;
       padding: 20px;
       transition: all .2s ease-in-out;
+      position: relative;
       }
     
 #temp:hover {
@@ -81,13 +82,13 @@ h1 {
     }
 
     #garden_content {
-      min-height: 200px;
-      max-width: fit-content;
+      min-height: 150px;
+      max-width: 800px;
       margin: auto;
       padding: 2rem;
 
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      flex-direction: row-reverse;
       justify-content: space-between;
 
       border-radius: 8px;
@@ -97,10 +98,22 @@ h1 {
 #text_weather h1{
  float: left;
  padding-left: 15px;
+ padding-right: 25px;
+ text-align: center;
 }
 #text_seattle h1{
   float: right;
-  padding-right: 50px;
+  padding-right: 30px;
+  /* padding-left: 25px; */
+  text-align: center;
+ }
+
+ #for_city h3{
+  font-weight: lighter;
+  font-family: cursive;
+  float: right;
+  padding-right: -70px;
+  padding-left: 100px;
  }
  
 
