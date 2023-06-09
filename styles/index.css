@@ -60,6 +60,7 @@ h1 {
     #city {
       grid-row: 4;
     }
+    
 
     .garden:hover {
       transform: translateY(-10px);
@@ -78,46 +79,41 @@ h1 {
       grid-column: 2;
       text-align: center;
       align-self: center;
+      position: relative;
+      
     }
 
     #garden_content {
       min-height: 200px;
-      max-width: fit-content;
+      max-width: 600px;
       margin: auto;
       padding: 2rem;
 
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
       justify-content: space-between;
 
       border-radius: 8px;
       font-size: 2em; 
     }
 
-#text_weather h1{
+#text_weather {
  float: left;
- padding-left: 15px;
+ padding-left: -35px;
+ /* padding-bottom: -40px; */
 }
-#text_seattle h1{
-  float: right;
-  padding-right: 50px;
- }
- 
 
-    /* button {
-    border: none;
-    background-color: #C0392B;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    } */
-    
-    /* .thing-count {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 50px;
-    }
-     */
-    
 
+ /* #for_city {
+  float: left;
+  font-family: cursive;
+  /* padding-top: -50px; */
+  /* padding-right: 35px; */
+  /* padding-left: 30px; */
+ /* } */ 
+
+ /* .header__city-name::before,
+.header__city-name::after {
+content: "✨";
+/* float:right; */
+} */
