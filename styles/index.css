@@ -2,20 +2,20 @@
 body {
   background-color: #FADBD8;
   font-family: 'Helvetica Neue', sans-serif;
-  color: #333333;
+  color: thistle;
 }
 
 main {
   background-color: #FADBD8;
-  font-family: 'Helvetica Neue', sans-serif;
-  color: #333333;
+  /* font-family: 'Helvetica Neue', sans-serif; */
+  /* color: #333333; */
 }
 
 h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 3rem;
-    text-shadow: 3px 3px #C0392B;
+    text-shadow: 3px 3px lightsalmon;
     }
 
     .container {
@@ -29,7 +29,7 @@ h1 {
       
       #temp, #sky, #city {
       margin-top: 15px;
-      background-color: white;
+      background-color: lightcoral;
       border-radius: 10px;
       box-shadow: 5px 5px #E6B0AA;
       text-align: center;
@@ -68,7 +68,7 @@ h1 {
       }
     
     .garden {
-      background-color: white;
+      background-color: mistyrose;
       border-radius: 10px;
       box-shadow: 5px 5px #E6B0AA;
       text-align: center;
@@ -102,18 +102,16 @@ h1 {
  padding-left: -35px;
  /* padding-bottom: -40px; */
 }
+#for_city h3 {
+  font-style: italic;
+  font-family: fantasy;
+  margin-bottom: -50px;
+  color: greenyellow;
+}
 
-
- /* #for_city {
-  float: left;
+#output {
   font-family: cursive;
-  /* padding-top: -50px; */
-  /* padding-right: 35px; */
-  /* padding-left: 30px; */
- /* } */ 
-
- /* .header__city-name::before,
-.header__city-name::after {
-content: "✨";
-/* float:right; */
-} */
+  padding-left: 140px;
+  font-size: 40px;
+  color: thistle;
+}
