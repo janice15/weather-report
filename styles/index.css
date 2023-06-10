@@ -115,3 +115,12 @@ h1 {
   font-size: 40px;
   color: thistle;
 }
+
+#defaultTemp {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
+.orange{
+  color: orange;
+}
