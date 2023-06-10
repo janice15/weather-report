@@ -1,21 +1,35 @@
+const state = {
+    temp: 72,
+};
 
+const increaseTemp = () => {
+    state.temp += 1;
+    const CountContainer = document.querySelector("#defaultTemp")
+    CountContainer.textContent = `${state.temp}`;
+    
+};
+const decreaseTemp = () => {
+    state.temp -= 1;
+    const CountContainer = document.querySelector("#defaultTemp")
+    CountContainer.textContent = `${state.temp}`;
+};
 function resetInput() {
-  document.getElementById("textInput").value = "Seattle";
+document.getElementById("textInput").value = "Seattle";
 }
 
 document.getElementById("textInput").addEventListener("input", function() {
-  document.getElementById("output").innerHTML = this.value;
+document.getElementById("output").innerHTML = this.value;
 });
 
 
 
-const minusTemp = document.querySelector('.minus')
-const plusTemp = document.querySelector('.plus');
 
-plusTemp.addEventListener('click',() => document.getElementById("number").textContent++);
-
-minusTemp.addEventListener('click',() => document.getElementById("number").textContent--);
-
+const registerEventHandlers = () => {
+    const addButton = document.querySelector("#increaseTempButton");
+    addButton.addEventListener("click", increaseTemp);
+    const removeButton = document.querySelector("#decreaseTempButton");
+    removeButton.addEventListener("click", decreaseTemp);
+};
 
 document.addEventListener("DOMContentLoaded", registerEventHandlers);
 
