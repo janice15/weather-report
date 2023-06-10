@@ -121,6 +121,13 @@ h1 {
   margin-right: 1rem;
 }
 
+dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  }
+
+
 .orange{
   color: orange;
 }
