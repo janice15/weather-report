@@ -1,8 +1,16 @@
+// function resetInput() {
+//     document.getElementById("textInput").value = "Seattle";
+
+//   }
+
 function resetInput() {
-    document.getElementById("textInput").value = "Seattle";
-  }
-  
+  const x = document.getElementById("textInput").value = "Seattle";
+  document.getElementById("output").innerHTML = x;
+}
+    
   document.getElementById("textInput").addEventListener("input", function() {
-    document.getElementById("output").innerHTML = this.value;
-  });
+  document.getElementById("output").innerHTML = this.value;
+
+    });
   
+

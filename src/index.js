@@ -1,5 +1,6 @@
 const state = {
     temp: 72,
+    city: "Seattle"
 };
 
 const increaseTemp = () => {
@@ -13,14 +14,6 @@ const decreaseTemp = () => {
     const CountContainer = document.querySelector("#defaultTemp")
     CountContainer.textContent = `${state.temp}`;
 };
-function resetInput() {
-document.getElementById("textInput").value = "Seattle";
-}
-
-document.getElementById("textInput").addEventListener("input", function() {
-document.getElementById("output").innerHTML = this.value;
-});
-
 
 
 
