@@ -1,16 +1,11 @@
 
 body {
-  background-color: #FADBD8;
-  font-family: 'Helvetica Neue', sans-serif;
-  color: thistle;
-  padding: 25px;
+  background-color: #d0f2ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  padding: 25px
 }
 
-main {
-  background-color: #FADBD8;
-  /* font-family: 'Helvetica Neue', sans-serif; */
-  /* color: #333333; */
-}
 
 h1 {
     text-align: center;
@@ -18,6 +13,12 @@ h1 {
     font-size: 3rem;
     text-shadow: 3px 3px lightsalmon;
     }
+h2 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-shadow: 3px 3px lightsalmon;
+}
 
     .container {
       display: flex;
@@ -30,7 +31,7 @@ h1 {
       
       #temp, #sky, #city {
       margin-top: 15px;
-      background-color: lightcoral;
+      background-color: rgb(218, 238, 255);
       border-radius: 10px;
       box-shadow: 5px 5px #E6B0AA;
       text-align: center;
@@ -104,19 +105,37 @@ h1 {
  padding-left: -35px;
  /* padding-bottom: -40px; */
 }
+
 #for_city h3 {
   font-style: italic;
   font-family: fantasy;
   margin-bottom: -50px;
-  color: greenyellow;
+  padding-left: -15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+#output:after {
+  margin: 3rem;
+  content:     "𓆝 𓆟 𓆞 𓆝 𓆟";
+  text-shadow: 3px 9px lightsalmon;
+  position: absolute;
+  transform: rotate(deg);
+  -webkit-transform: rotate(deg);
+  color: rgb(134, 194, 245);
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #output {
   font-family: cursive;
-  padding-left: 140px;
+  padding-left: 200px;
   font-size: 40px;
-  color: thistle;
+  color: rgb(134, 194, 245);
+  /* padding-right: 10px; */
 }
+
 
 #defaultTemp {
   font-size: 4rem;
@@ -127,6 +146,7 @@ dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 
