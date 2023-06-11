@@ -5,20 +5,20 @@ const state = {
 
 const increaseTemp = () => {
     state.temp += 1;
-    const CountContainer = document.querySelector("#defaultTemp")
+    const CountContainer = document.getElementById('defaultTemp')
     CountContainer.textContent = `${state.temp}`;
 };
 const decreaseTemp = () => {
     state.temp -= 1;
-    const CountContainer = document.querySelector("#defaultTemp")
+    const CountContainer = document.getElementById('defaultTemp')
     CountContainer.textContent = `${state.temp}`;
 };
 
 const registerEventHandlers = () => {
-    const addButton = document.querySelector("#increaseTempButton");
-    addButton.addEventListener("click", increaseTemp);
-    const removeButton = document.querySelector("#decreaseTempButton");
-    removeButton.addEventListener("click", decreaseTemp);
+    const increaseButton = document.getElementById('increaseTempButton');
+    increaseButton.addEventListener("click", increaseTemp);
+    const decreaseButton = document.getElementById('decreaseTempButton');
+    decreaseButton.addEventListener("click", decreaseTemp);
 
 resetSky();
 const skySelect = document.getElementById('skySelect');
