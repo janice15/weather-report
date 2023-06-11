@@ -31,7 +31,7 @@
         <h2>Garden</h2>
     <div class="garden" id="garden_content">
         <div id="sky-emotes">☁☼☁☼☁☼☁☼☁☼☁☼☁</div>
-        <!-- <div id="landscape">wrgnosv</div> -->
+        <div id="landscape">🌸🌿🌼__🌷🌻🌿_☘️🌱_🌻🌷</div>
 
     </div>
     </section>
@@ -41,12 +41,13 @@
     <section class="container">
         <section id="temp">
         <h2>Temperature</h2>
-        <button id="increaseTempButton">🔼</button>
-        <section id="defaultTemp" class="orange">72</section>
-        <button id="decreaseTempButton">🔽</button>
-        <section>
-            <button id="realTimeTemperature">Real Time Temperature</button>
-        </section>
+        <div class="tempControls"></div>
+            <button id="increaseTempButton">🔼</button>
+            <span id="defaultTemp" class="orange">72</span>
+            <button id="decreaseTempButton">🔽</button>
+        <div>
+            <button id="realTimeTempButton">Real Time Temperature</button>
+        </div>
         </section>
 
         <section id="sky" onclick="resetSky()">
@@ -59,7 +60,6 @@
                 <option value="Snow">Snow</option>
                 <option value="Frosted">Frosted</option>
             </select>
-            
         </section>
 
             <section id="city">
