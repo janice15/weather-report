@@ -1,10 +1,18 @@
-function resetInput() {
-    const x = document.getElementById("textInput").value = "Seattle";
-    document.getElementById("output").innerHTML = x;
-  }
+// function resetSky() {
+//     const x = document.getElementById("sky").value = "☁☼☁☼☁☼☁☼☁☼☁☼☁";
+//     document.getElementById("garden_content").innerHTML = x;
+//     const value = document.getElementById("extra-hot").vlaue = "grwesvd"
+//   }
       
-    document.getElementById("textInput").addEventListener("input", function() {
-    document.getElementById("output").innerHTML = this.value;
+//     document.getElementById("sky").addEventListener("select", function() {
+//     document.getElementById("garden_content").innerHTML = this.value;
   
-      });
+//       });
     
+function resetSky() {
+    const inputSky = document.getElementById('skySelect').value;
+    const skyContainer = document.getElementById('sky-emotes');
+    let sky = '';
+    let skyColor = '';
+    if (inputSky ===)
+}

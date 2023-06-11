@@ -34,6 +34,7 @@ h2 {
       background-color: rgb(218, 238, 255);
       border-radius: 10px;
       box-shadow: 5px 5px #E6B0AA;
+      /* margin: auto; */
       text-align: center;
       width: 250px;
       padding: 20px;
@@ -141,14 +142,6 @@ h2 {
   font-size: 4rem;
   margin-right: 1rem;
 }
-
-dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
 
 .orange{
   color: orange;

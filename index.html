@@ -36,16 +36,15 @@
 
     <section>
         <h2>Garden</h2>
-   
     <div class="garden" id="garden_content">
-        
+        <div id="sky-emotes">☁☼☁☼☁☼☁☼☁☼☁☼☁</div>
+        <!-- <div id="landscape">wrgnosv</div> -->
+
     </div>
     </section>
 </section>
-   
 
-    
-    
+
     <section class="container">
         <section id="temp">
         <h2>Temperature</h2>
@@ -54,11 +53,11 @@
         <button id="decreaseTempButton">🔽</button>
         </section>
 
-        <section id="sky">
+        <section id="sky" onclick="resetSky()">
         <h2>Sky</h2>
-            <select class="dropdown_content">
-                <option value="Charcoal">Charcoal</option>
-                <option value="Sunny">Sunny</option>
+            <select id="skySelect">
+                <option value="Charcoal" id="extra-hot">Charcoal</option>
+                <option value="Sunny" selected="selected">Sunny</option>
                 <option value="Cloudy">Cloudy</option>
                 <option value="Rain">Rain</option>
                 <option value="Snow">Snow</option>
@@ -66,9 +65,6 @@
             </select>
             
         </section>
-
-
-
 
             <section id="city">
                 <h2>City Name</h2>
