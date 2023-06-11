@@ -166,7 +166,19 @@ h2 {
 .orange {
   color: orange;
 }
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow
+}
+.yellow-green {
+  color:yellowgreen
+}
 
+.blue {
+  color: blue
+}
 .charcoal {
   background-color:orangered
 }
