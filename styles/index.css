@@ -149,6 +149,20 @@ h2 {
   margin-right: 1rem;
 }
 
+#garden_content {
+  min-height: 270px;
+  max-width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  border-radius: 10px;
+  font-size: 2rem;
+  }
+
 .orange {
   color: orange;
 }
