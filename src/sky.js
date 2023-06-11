@@ -20,7 +20,7 @@ function resetSky() {
         sky = '🌥⛄🌨❄⛄🌨❄⛄🌥'
         skyColor = 'snowy'
     } else if (inputSky === 'Frosted') {
-        sky = '☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠'
+        sky = '☠☠☠☠☠☠☠☠☠☠☠☠☠☠'
         skyColor = 'frosted'
     }
 skyContainer.textContent = sky;
