@@ -7,7 +7,6 @@ const increaseTemp = () => {
     state.temp += 1;
     const CountContainer = document.querySelector("#defaultTemp")
     CountContainer.textContent = `${state.temp}`;
-    
 };
 const decreaseTemp = () => {
     state.temp -= 1;
@@ -15,14 +14,17 @@ const decreaseTemp = () => {
     CountContainer.textContent = `${state.temp}`;
 };
 
-
-
 const registerEventHandlers = () => {
     const addButton = document.querySelector("#increaseTempButton");
     addButton.addEventListener("click", increaseTemp);
     const removeButton = document.querySelector("#decreaseTempButton");
     removeButton.addEventListener("click", decreaseTemp);
+
+resetSky();
+const skySelect = document.getElementById('skySelect');
+skySelect.addEventListener('change', updateSky);
 };
+
 
 document.addEventListener("DOMContentLoaded", registerEventHandlers);
 
