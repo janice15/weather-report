@@ -1,5 +1,5 @@
 body {
-  background-color: #6fc6e9;
+  background-color: skyblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   padding: 25px
@@ -10,14 +10,14 @@ h1 {
   text-align: center;
   margin-top: 50px;
   font-size: 3rem;
-  text-shadow: 3px 3px lightsalmon;
+  text-shadow: 3px 3px rgb(209, 210, 216);
 }
 
 h2 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
-  text-shadow: 3px 3px lightsalmon;
+  text-shadow: 3px 3px rgb(209, 210, 216);
 }
 
 .container {
@@ -35,7 +35,7 @@ h2 {
   margin-top: 15px;
   background-color: rgb(218, 238, 255);
   border-radius: 10px;
-  box-shadow: 5px 5px skyblue;
+  box-shadow: 5px 5px rgb(39, 142, 183);
   /* margin: auto; */
   text-align: center;
   width: 250px;
@@ -124,8 +124,7 @@ h2 {
 
 #output:after {
   margin: 3rem;
-  content: "𓆝 𓆟 𓆞 𓆝 𓆟";
-  text-shadow: 3px 9px lightsalmon;
+  content: "🌈☀️🌧❄️🍃⛈⛅️☃️☀️"; 
   position: absolute;
   transform: rotate(deg);
   -webkit-transform: rotate(deg);
