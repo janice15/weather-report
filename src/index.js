@@ -21,7 +21,7 @@ const getWeather = () => {
         .then((response) => {
             const weather = response.data;
             state.temp = Math.round(convertKtoF(weather.main.temp));
-            formatTempAndGarden();
+            changeTempAndLandscape();
         })
         .catch((error) => {
             console.log('error in getting the weather!');
